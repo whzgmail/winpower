@@ -1,0 +1,514 @@
+{
+    "subs": [
+        {
+            "guid": "0012ee47-9041-4b5d-9b77-535fba8b1442",
+            "name": "硬盘",
+            "settings": [
+                {
+                    "guid": "6738e2c4-e8a5-4a42-b16a-e040e769756e",
+                    "name": "在此时间后关闭硬盘",
+                    "min": "0x00000000",
+                    "max": "0xffffffff",
+                    "possible": "0x00000001",
+                    "unit": "秒",
+                    "ac": 30,
+                    "dc": 60
+                }
+            ]
+        },
+        {
+            "guid": "02f815b5-a5cf-4c84-bf20-649d1f75d3d8",
+            "name": "Internet Explorer",
+            "settings": [
+                {
+                    "guid": "4c793e7d-a264-42e1-87d3-7a0d2f523ccd",
+                    "name": "JavaScript 计时器频率",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "最大电源节省量"
+                        },
+                        {
+                            "value": "001",
+                            "label": "最高性能"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "000"
+                }
+            ]
+        },
+        {
+            "guid": "0d7dbae2-4294-402a-ba8e-26777e8488cd",
+            "name": "桌面背景设置",
+            "settings": [
+                {
+                    "guid": "309dce9b-bef4-4119-9921-a851fb12f0f4",
+                    "name": "幻灯片放映",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "可用"
+                        },
+                        {
+                            "value": "001",
+                            "label": "已暂停"
+                        }
+                    ],
+                    "ac": "000",
+                    "dc": "001"
+                }
+            ]
+        },
+        {
+            "guid": "19cbb8fa-5279-450e-9fac-8a3d5fedd0c1",
+            "name": "无线适配器设置",
+            "settings": [
+                {
+                    "guid": "12bbebe6-58d6-4636-95bb-3217ef867c1a",
+                    "name": "节能模式",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "最高性能"
+                        },
+                        {
+                            "value": "001",
+                            "label": "低节能"
+                        },
+                        {
+                            "value": "002",
+                            "label": "中等节能"
+                        },
+                        {
+                            "value": "003",
+                            "label": "最高节能"
+                        }
+                    ],
+                    "ac": "000",
+                    "dc": "002"
+                }
+            ]
+        },
+        {
+            "guid": "238c9fa8-0aad-41ed-83f4-97be242c8f20",
+            "name": "睡眠",
+            "settings": [
+                {
+                    "guid": "29f6c1db-86da-48c5-9fdb-f2b67b1f44da",
+                    "name": "在此时间后睡眠",
+                    "min": "0x00000000",
+                    "max": "0xffffffff",
+                    "possible": "0x00000001",
+                    "unit": "秒",
+                    "ac": 600,
+                    "dc": 180
+                },
+                {
+                    "guid": "94ac6d29-73ce-41a6-809f-6363ba21b47e",
+                    "name": "允许混合睡眠",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "关闭"
+                        },
+                        {
+                            "value": "001",
+                            "label": "启用"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "001"
+                },
+                {
+                    "guid": "9d7815a6-7ee4-497e-8888-515a05f02364",
+                    "name": "在此时间后休眠",
+                    "min": "0x00000000",
+                    "max": "0xffffffff",
+                    "possible": "0x00000001",
+                    "unit": "秒",
+                    "ac": 10800,
+                    "dc": 54000
+                },
+                {
+                    "guid": "bd3b718a-0680-4d9d-8ab2-e1d2b4ac806d",
+                    "name": "允许使用唤醒定时器",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "禁用"
+                        },
+                        {
+                            "value": "001",
+                            "label": "启用"
+                        },
+                        {
+                            "value": "002",
+                            "label": "仅限重要的唤醒计算器"
+                        }
+                    ],
+                    "ac": "000",
+                    "dc": "000"
+                }
+            ]
+        },
+        {
+            "guid": "2a737441-1930-4402-8d77-b2bebba308a3",
+            "name": "USB 设置",
+            "settings": [
+                {
+                    "guid": "48e6b7a6-50f5-4782-a5d4-53bb8f07e226",
+                    "name": "USB 选择性暂停设置",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "已禁用"
+                        },
+                        {
+                            "value": "001",
+                            "label": "已启用"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "001"
+                }
+            ]
+        },
+        {
+            "guid": "44f3beca-a7c0-460e-9df2-bb8b99e0cba6",
+            "name": "英特尔(R",
+            "settings": [
+                {
+                    "guid": "3619c3f2-afb2-4afc-b0e9-e7fef372de36",
+                    "name": "英特尔(R",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "最长电池寿命"
+                        },
+                        {
+                            "value": "001",
+                            "label": "平衡的"
+                        },
+                        {
+                            "value": "002",
+                            "label": "最高性能"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "001"
+                }
+            ]
+        },
+        {
+            "guid": "4f971e89-eebd-4455-a8de-9e59040e7347",
+            "name": "电源按钮和盖子",
+            "settings": [
+                {
+                    "guid": "a7066653-8d6c-40a8-910e-a1f54b84c7e5",
+                    "name": "「开始」菜单电源按钮",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "睡眠"
+                        },
+                        {
+                            "value": "001",
+                            "label": "休眠"
+                        },
+                        {
+                            "value": "002",
+                            "label": "关机"
+                        }
+                    ],
+                    "ac": "000",
+                    "dc": "000"
+                }
+            ]
+        },
+        {
+            "guid": "501a4d13-42af-4429-9fd1-a8218c268e20",
+            "name": "PCI Express",
+            "settings": [
+                {
+                    "guid": "ee12f906-d277-404b-b6da-e5fa1a576df5",
+                    "name": "链接状态电源管理",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "关闭"
+                        },
+                        {
+                            "value": "001",
+                            "label": "中等电源节省量"
+                        },
+                        {
+                            "value": "002",
+                            "label": "最大电源节省量"
+                        }
+                    ],
+                    "ac": "002",
+                    "dc": "002"
+                }
+            ]
+        },
+        {
+            "guid": "54533251-82be-4824-96c1-47b60b740d00",
+            "name": "处理器电源管理",
+            "settings": [
+                {
+                    "guid": "893dee8e-2bef-41e0-89c6-b55d0929964c",
+                    "name": "最小处理器状态",
+                    "min": "0x00000000",
+                    "max": "0x00000064",
+                    "possible": "0x00000001",
+                    "unit": "%",
+                    "ac": 5,
+                    "dc": 90
+                },
+                {
+                    "guid": "bc5038f7-23e0-4960-96da-33abaf5935ec",
+                    "name": "最大处理器状态",
+                    "min": "0x00000000",
+                    "max": "0x00000064",
+                    "possible": "0x00000001",
+                    "unit": "%",
+                    "ac": 100,
+                    "dc": 100
+                }
+            ]
+        },
+        {
+            "guid": "7516b95f-f776-4464-8c53-06167f40cc99",
+            "name": "显示",
+            "settings": [
+                {
+                    "guid": "3c0bc021-c8a8-4e07-a973-6b14cbcb2b7e",
+                    "name": "在此时间后关闭显示",
+                    "min": "0x00000000",
+                    "max": "0xffffffff",
+                    "possible": "0x00000001",
+                    "unit": "秒",
+                    "ac": 300,
+                    "dc": 180
+                },
+                {
+                    "guid": "aded5e82-b909-4619-9949-f5d71dac0bcb",
+                    "name": "显示器亮度",
+                    "min": "0x00000000",
+                    "max": "0x00000064",
+                    "possible": "0x00000001",
+                    "unit": "%",
+                    "ac": 70,
+                    "dc": 30
+                },
+                {
+                    "guid": "f1fbfde2-a960-4165-9f88-50667911ce96",
+                    "name": "显示器亮度变暗",
+                    "min": "0x00000000",
+                    "max": "0x00000064",
+                    "possible": "0x00000001",
+                    "unit": "%",
+                    "ac": 50,
+                    "dc": 50
+                },
+                {
+                    "guid": "fbd9aa66-9553-4097-ba44-ed6e9d65eab8",
+                    "name": "启用自适应亮度",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "关闭"
+                        },
+                        {
+                            "value": "001",
+                            "label": "启用"
+                        }
+                    ],
+                    "ac": "000",
+                    "dc": "000"
+                }
+            ]
+        },
+        {
+            "guid": "9596fb26-9850-41fd-ac3e-f7c3c00afd4b",
+            "name": "“多媒体”设置",
+            "settings": [
+                {
+                    "guid": "03680956-93bc-4294-bba6-4e0f09bb717f",
+                    "name": "共享媒体时",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "允许计算机睡眠"
+                        },
+                        {
+                            "value": "001",
+                            "label": "阻止计算机在一段时间不活动后进入睡眠状态"
+                        },
+                        {
+                            "value": "002",
+                            "label": "允许计算机进入离开模式"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "000"
+                },
+                {
+                    "guid": "10778347-1370-4ee0-8bbd-33bdacaade49",
+                    "name": "视频播放质量补偿",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "视频播放节能偏向"
+                        },
+                        {
+                            "value": "001",
+                            "label": "视频播放性能补偿"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "000"
+                },
+                {
+                    "guid": "34c7b99f-9a6d-4b3c-8dc7-b6693b78cef4",
+                    "name": "播放视频时",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "优化视频质量"
+                        },
+                        {
+                            "value": "001",
+                            "label": "平衡"
+                        },
+                        {
+                            "value": "002",
+                            "label": "优化节能"
+                        }
+                    ],
+                    "ac": "000",
+                    "dc": "001"
+                }
+            ]
+        },
+        {
+            "guid": "e73a048d-bf27-4f12-9731-8b2076e8891f",
+            "name": "电池",
+            "settings": [
+                {
+                    "guid": "5dbb7c9f-38e9-40d2-9749-4f8a0e9f640f",
+                    "name": "低电池电量通知",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "关闭"
+                        },
+                        {
+                            "value": "001",
+                            "label": "启用"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "001"
+                },
+                {
+                    "guid": "637ea02f-bbcb-4015-8e2c-a1c7b9c0b546",
+                    "name": "关键级别电池操作",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "不采取任何操作"
+                        },
+                        {
+                            "value": "001",
+                            "label": "睡眠"
+                        },
+                        {
+                            "value": "002",
+                            "label": "休眠"
+                        },
+                        {
+                            "value": "003",
+                            "label": "关机"
+                        }
+                    ],
+                    "ac": "002",
+                    "dc": "002"
+                },
+                {
+                    "guid": "8183ba9a-e910-48da-8769-14ae6dc1170a",
+                    "name": "电池电量水平低",
+                    "min": "0x00000000",
+                    "max": "0x00000064",
+                    "possible": "0x00000001",
+                    "unit": "%",
+                    "ac": 6,
+                    "dc": 6
+                },
+                {
+                    "guid": "9a66d8d7-4ff7-4ef9-b5a2-5a326ca2a469",
+                    "name": "关键电池电量水平",
+                    "min": "0x00000000",
+                    "max": "0x00000064",
+                    "possible": "0x00000001",
+                    "unit": "%",
+                    "ac": 2,
+                    "dc": 2
+                },
+                {
+                    "guid": "bcded951-187b-4d05-bccc-f7e51960c258",
+                    "name": "低电量通知",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "关闭"
+                        },
+                        {
+                            "value": "001",
+                            "label": "启用"
+                        }
+                    ],
+                    "ac": "001",
+                    "dc": "001"
+                },
+                {
+                    "guid": "d8742dcb-3e6a-4b3c-b3fe-374623cdcf06",
+                    "name": "低电量操作",
+                    "items": [
+                        {
+                            "value": "000",
+                            "label": "不采取任何操作"
+                        },
+                        {
+                            "value": "001",
+                            "label": "睡眠"
+                        },
+                        {
+                            "value": "002",
+                            "label": "休眠"
+                        },
+                        {
+                            "value": "003",
+                            "label": "关机"
+                        }
+                    ],
+                    "ac": "000",
+                    "dc": "000"
+                },
+                {
+                    "guid": "f3c5027d-cd16-4930-aa6b-90db844a8f00",
+                    "name": "保留电池电量",
+                    "min": "0x00000000",
+                    "max": "0x00000064",
+                    "possible": "0x00000001",
+                    "unit": "%",
+                    "ac": 4,
+                    "dc": 4
+                }
+            ]
+        }
+    ],
+    "guid": "d6cfb1f0-8fbe-4b32-af91-e0f76c7d5522",
+    "name": "my plant"
+}
