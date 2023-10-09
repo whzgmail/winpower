@@ -10,30 +10,12 @@ module.exports = merge(common,{
     devtool: "cheap-source-map",
     mode:'development',
     devServer: {
-        // contentBase: "./dist",
-        // hot: true,
-        // clientLogLevel: 'warning',
         compress: true,
         host: "127.0.0.1",
         port: 8080,
         open: true,
-        // disableHostCheck: true,
-        // overlay: { warnings: false, errors: true },
-        // publicPath: '/',
-        // proxy: {},
-        // static: {
-        //     directory: path.join(__dirname, "/"),
-        // },
-        // quiet: true, // necessary for FriendlyErrorsPlugin
-        // watchOptions: {
-        //     poll: false,
-        // },
-        // before(app) {
-        //     webpackMock(app, path.resolve(__dirname, '../mock/index.js'));
-        // },
     },
     plugins: [
-        // new webpack.NamedModulesPlugin(),
         new HtmlWebpackPlugin({
             title: "debug",
             template: path.join(__dirname, "/../index.ejs"),

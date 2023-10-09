@@ -4,11 +4,9 @@ const common = require("./base.js");
 const webpack = require('webpack');
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-// const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = merge(common, {
-    // devtool: "inline-source-map",
     entry: path.join(__dirname, "/../src/main.js"),
     output: {
         filename: '[name].[chunkhash].js',
@@ -42,7 +40,6 @@ module.exports = merge(common, {
     },
     plugins: [
         new CleanWebpackPlugin(),
-        // new UglifyJSPlugin({ sourceMap: true }),
         new HtmlWebpackPlugin({
             title: "Power Manager",
             template: path.join(__dirname, "/../index.ejs"),
